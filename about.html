@@ -2,88 +2,105 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Shivanshu</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Shivanshu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Shivanshu's Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="about.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="vlog.html">Vlogs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Shivanshu's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="vlog.html">Vlogs</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Me Section -->
+  <section class="about-section py-5 mt-5">
+    <div class="container text-center">
+      <h1 class="mb-4">About Me</h1>
+      <img src="images/profile.jpg" class="about-profile-img rounded-circle shadow-lg mb-3" alt="Profile Image" width="200">
+
+      <p class="lead">
+        I am a <strong>Computer Science Engineer</strong> and aspiring <strong>Software Engineer</strong>, passionate about 
+        <strong>Machine Learning, Artificial Intelligence, and Scalable System Design</strong>.  
+        With hands-on experience in <strong>full-stack development, distributed systems, and CI/CD automation</strong>,  
+        I build impactful solutions that combine performance, reliability, and innovation.  
+      </p>
+
+      <div class="row text-start mt-4">
+        <!-- Technical Skills -->
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm p-4 h-100">
+            <h3 class="text-center mb-3">Technical Skills</h3>
+            <ul class="list-unstyled">
+              <li>✅ Programming: Python, C++, Java, C, JavaScript, SQL, Bash</li>
+              <li>✅ Machine Learning & AI: Deep Learning, NLP, CNNs, LLMs</li>
+              <li>✅ Data Structures & Algorithms (Competitive Programming)</li>
+              <li>✅ System Design, Distributed Systems, Performance Optimization</li>
+              <li>✅ Full-Stack Development (HTML, CSS, JavaScript, React, Node.js)</li>
+              <li>✅ Databases: MySQL, MongoDB</li>
+              <li>✅ Tools & Platforms: Git, Docker, Linux, Windows API</li>
+              <li>✅ CI/CD, MLOps, Monitoring & Observability</li>
+            </ul>
+          </div>
         </div>
-    </nav>
 
-    <!-- About Me Section -->
-    <section class="about-section py-5">
-        <div class="container text-center">
-            <h1 class="mb-4">About Me</h1>
-            <img src="images/profile.jpg" class="about-profile-img rounded-circle shadow-lg mb-3" alt="Profile Image"
-                width="200">
-
-            <p class="lead">
-                I am a passionate problem-solver specializing in <strong>Machine Learning, AI, and System
-                    Development</strong>.
-                With expertise in <strong>C++, Python, Java, and SQL</strong>, I build innovative solutions that bridge
-                technology and real-world applications.
-            </p>
-
-            <div class="row text-start mt-4">
-                <div class="col-md-6">
-                    <div class="card shadow-sm p-4">
-                        <h3 class="text-center mb-3">Technical Skills</h3>
-                        <ul class="list-unstyled">
-                            <li>✅ Programming: C++, Python, Java</li>
-                            <li>✅ Machine Learning & AI</li>
-                            <li>✅ Data Structures & Algorithms</li>
-                            <li>✅ Full-Stack Development (HTML, CSS, JavaScript, React, Node.js)</li>
-                            <li>✅ Database Management (MySQL, MongoDB)</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="card shadow-sm p-4">
-                        <h3 class="text-center mb-3">Education & Experience</h3>
-                        <p><strong>B.Tech in Computer Science (3rd Year)</strong> - Graphic Era Hill University</p>
-                        <p>Developed AI-based projects including <strong>Face Recognition</strong> and <strong>Speech
-                                Emotion Recognition</strong>.</p>
-                        <p>Active participant in hackathons, research, and technical workshops.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Resume Section -->
-            <div class="mt-5">
-                <h3>My Resume</h3>
-                <p>Click the button below to view or download my resume.</p>
-                <a href="Shivanshu_Agarwal_Resume.pdf" target="_blank" class="btn btn-primary btn-lg">
-                    📄 View Resume
-                </a>
-            </div>
-
-            <div class="text-center mt-4">
-                <a href="index.html" class="btn btn-outline-dark">Back to Home</a>
-            </div>
+        <!-- Education & Experience -->
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm p-4 h-100">
+            <h3 class="text-center mb-3">Education & Experience</h3>
+            <p><strong>B.Tech in Computer Science (4th Year)</strong> — Graphic Era Hill University</p>
+            <p><strong>CGPA:</strong> 8.195 / 10</p>
+            <hr>
+            <p><strong>Salesforce Developer Intern</strong> — SmartBridge + AICTE (May–Jul 2025)</p>
+            <ul>
+              <li>Developed scalable features using Apex & LWC, implemented CI/CD pipelines.</li>
+              <li>Built dashboards for monitoring and observability, improving reliability.</li>
+              <li>Worked with cross-functional stakeholders to gather user requirements.</li>
+            </ul>
+            <hr>
+            <p><strong>Projects:</strong></p>
+            <ul>
+              <li>🔹 Scalable Virtual Exam Platform — Secure kiosk mode with proctoring (100+ users).</li>
+              <li>🔹 Automated Attendance System — Real-time face recognition (95%+ accuracy).</li>
+              <li>🔹 Speech Emotion Recognition — CNN-based NLP achieving 88% accuracy.</li>
+            </ul>
+          </div>
         </div>
-    </section>
+      </div>
 
+      <!-- Resume Section -->
+      <div class="mt-5">
+        <h3>My Resume</h3>
+        <p>Click the button below to view or download my latest resume.</p>
+        <a href="Shivanshu_Agarwal_Resume.pdf" target="_blank" class="btn btn-primary btn-lg">
+          📄 View Resume
+        </a>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="index.html" class="btn btn-outline-dark">Back to Home</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
